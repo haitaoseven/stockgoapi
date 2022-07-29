@@ -3,7 +3,8 @@ package common
 import (
 	"fmt"
 
-	"github.com/go-xorm/xorm"
+	"xorm.io/xorm"
+	//"github.com/go-xorm/xorm"
 )
 
 var Dbcon *xorm.Engine
